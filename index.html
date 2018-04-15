@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Startup</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+
+
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <!-- My own stylesheet -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body class="body">
+    <header class="startup text-center text-white d-flex">
+      <div class="container my-auto">
+        <div class="row">
+          <div class="col-lg-12 my-auto">
+            <h1 class="text-uppercase faded">
+              <strong>Welcome to the landing page of a cool developer</strong>
+            </h1>
+            <hr>
+          </div>
+          <div class="col-lg-12 my-auto">
+            <button class="btn btn-primary btn-xl">Subscribe</button>
+          </div>
+        </div>
+      </div>
+
+    </header>
+    <p class="p"><br>I also have a snake game for you if you already feel bored on my website, just click on the space below to play</p>
+    <canvas class="snake" id= "gc" width="400" height="400"></canvas>
+
+<script>
+window.onload=function() {
+  canv=document.getElementById("gc");
+  ctx=canv.getContext("2d");
+  document.addEventListener("keydown",keyPush);
+  setInterval(game, 1000/15);
+
+
+}
+px=py=10;
+gs=tc=20;
+ax=ay=15;
+xv=yv=0;
+trail=[];
+tail = 5;
+function game () {
+  px+=xv;
+  py+=yv;
+  if(px<0) {
+    px= tc-1;
+  }
+  if(px>tc-1) {
+    px= 0;
+  }
+  if(py<0) {
+    py= tc-1;
+  }
+  if(py>tc-1) {
+    py= 0;
+  }
+  ctx.fillStyle="#e1c9e8";
+  ctx.fillRect(0,0,canv.width,canv.height);
+  ctx.fillStyle="#68b6c7";
+  for(var i=0;i<trail.length;i++) {
+    ctx.fillRect(trail[i].x*gs,trail[i].y*gs,gs-2,gs-2);
+    if(trail[i].x==px && trail[i].y==py) {
+      tail = 5;
+    }
+
+  }
+  trail.push({x:px,y:py});
+  while(trail.length>tail){
+  trail.shift();
+  }
+
+  if(ax==px && ay==py) {
+    tail++;
+    ax=Math.floor(Math.random()*tc);
+    ay=Math.floor(Math.random()*tc);
+  }
+  ctx.fillStyle="red";
+  ctx.fillRect(ax*gs,ay*gs,gs-2,gs-2);
+}
+function keyPush(evt) {
+  switch(evt.keyCode) {
+    case 37:
+      xv=-1;yv=0;
+      break;
+    case 38:
+      xv=0;yv=-1;
+      break;
+    case 39:
+      xv=1;yv=0;
+      break;
+    case 40:
+      xv=0;yv=1;
+      break;  
+  }
+
+}
+</script>
+
+  </body>
+
+</html>
