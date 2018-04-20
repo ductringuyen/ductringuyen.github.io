@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Anton'>
+	<title>Game test 1</title>
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+</head>
+<body>
+
+<div class="wrap">
+<div class="game"></div>
+ 
+ <div class="modal-overlay">
+ <div class="modal">
+ <h2 class="winner">Win!!</h2>
+ <button class="restart">Play Again</button>
+ <p class="message">Developed by Nguyen Duc Tri</p>
+ <p class="share-text">Share your win</p>
+ 
+ </div>
+ </div>
+  <footer>
+
+ </footer>
+  </div>
+
+
+</body>
+</html>
