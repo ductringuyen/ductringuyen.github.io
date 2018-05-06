@@ -45,9 +45,9 @@ header.startup h1 {
   font-weight: 700;
   text-transform: uppercase;
   border-radius: 300px;
-  font-family: 'Montserrat', serif;
+  font-family: 'Montserrat', sans-serif;
   margin-top: 22rem;
-  color: #f9eaff; 
+  color: c; 
   } 
 
 .btn-xl {
