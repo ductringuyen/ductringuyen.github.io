@@ -41,36 +41,40 @@ header.startup h1 {
   
 }
 
+
+
 .btn {
-  font-weight: 700;
-  text-transform: uppercase;
-  border-radius: 300px;
-  font-family: 'Montserrat', sans-serif;
-  margin-top: 22rem;
-  color: #f9eaff; 
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  border-radius: 300px !important;
+  font-family: 'Montserrat', sans-serif !important;
+  margin-top: 22rem !important;
+  color: #f9eaff !important; 
   } 
 
 .btn-xl {
-  padding: 1rem 2rem;
+  padding: 1rem 2rem !important;
   
 }
 
 .btn-primary {
-  background-color: #68b6c7;
-  border-color: #68b6c7;
+  background-color: #68b6c7 !important;
+  border-color: #68b6c7 !important;
 
-  opacity: 0.8;
-  filter: brightness(); (opacity=0.8); 
-  background-blend-mode: multiply;
+  opacity: 0.8 !important; 
+   
+  background-blend-mode: multiply !important;
 
 }
 
 .btn-primary:hover {
-  background-color: #6ebfcf;
-  border-color: #6ebfcf;
-  border-width: 5px;
-  cursor: pointer;
+  background-color: #6ebfcf !important;
+  border-color: #6ebfcf !important;
+  border-width: 5px !important;
+  cursor: pointer !important;
 }
+
+
 
 
 
