@@ -19,7 +19,7 @@ hr {
 .faded {
   color: rgba(255, 255, 255, 0,8); 
   opacity: 0,5;
-  shape-rendering: 
+   
 }
 
 header.startup {
@@ -72,22 +72,8 @@ header.startup h1 {
   cursor: pointer;
 }
 
-.snake {
-  float:inherit; 
-}
 
-.p {
-  float: left;
-  font-family: 'Gugi', sans-serif;
-  font-size: 2rem;
-  
-  border-radius: 300px;
-  
-}
 
-.body {
-  background-color: #D5C2E0;
-}
 
 
 
