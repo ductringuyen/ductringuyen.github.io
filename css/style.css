@@ -1826,9 +1826,9 @@ align-items: stretch;}
 }
 
 .lang-btn {
-  background: transparent;
-  border: 1px solid rgba(255,255,255,0.3);
-  color: rgba(255,255,255,0.7);
+  background: rgba(0, 102, 204, 0.1);
+  border: 1px solid rgba(0, 102, 204, 0.3);
+  color: #0066cc;
   padding: 5px 12px;
   border-radius: 15px;
   cursor: pointer;
@@ -1838,8 +1838,9 @@ align-items: stretch;}
 }
 
 .lang-btn:hover {
-  background: rgba(255,255,255,0.1);
-  color: white;
+  background: rgba(0, 102, 204, 0.2);
+  border-color: #0066cc;
+  color: #0066cc;
 }
 
 .lang-btn.active {

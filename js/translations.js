@@ -18,7 +18,7 @@ const translations = {
         about_title: "About Me",
         about_intro: '<strong>Software Engineer with 4+ years of experience</strong> building scalable enterprise and startup solutions at <strong>Revel8, Deutsche Bank, CBRE, and Lufthansa</strong>.',
         about_specialization: 'Specialized in <strong>AI/LLM integration, RAG systems, cloud infrastructure, and backend architectures</strong>. Proven track record delivering production systems that process high-volume data while meeting strict compliance standards.',
-        about_available: '<strong style="color: #0066cc;">Currently available for freelance projects</strong><br><span style="font-size: 14px;">Rate: $100-130/hour | Project rates negotiable</span>',
+        about_available: '<strong style="color: #0066cc;">Currently available for freelance projects</strong><br><span style="font-size: 14px;">Project rates negotiable</span>',
         about_expertise: "My core expertise:",
 
         // Service Boxes (About)
@@ -98,7 +98,7 @@ const translations = {
         contact_fluent: "Fluent",
         contact_native: "Native",
         contact_cta_title: "Ready to Start Your Project?",
-        contact_cta_rate: "$100-130/hour | Project rates negotiable",
+        contact_cta_rate: "Project rates negotiable",
         contact_cta_button: "Get in Touch"
     },
 
@@ -120,7 +120,7 @@ const translations = {
         about_title: "Über mich",
         about_intro: '<strong>Software Engineer mit über 4 Jahren Erfahrung</strong> in der Entwicklung skalierbarer Enterprise- und Startup-Lösungen bei <strong>Revel8, Deutsche Bank, CBRE und Lufthansa</strong>.',
         about_specialization: 'Spezialisiert auf <strong>AI/LLM-Integration, RAG-Systeme, Cloud-Infrastruktur und Backend-Architekturen</strong>. Nachgewiesene Erfolgsbilanz bei der Bereitstellung von Produktionssystemen, die große Datenmengen verarbeiten und strenge Compliance-Standards erfüllen.',
-        about_available: '<strong style="color: #0066cc;">Derzeit verfügbar für Freelance-Projekte</strong><br><span style="font-size: 14px;">Stundensatz: 100-130€ | Projektpreise verhandelbar</span>',
+        about_available: '<strong style="color: #0066cc;">Derzeit verfügbar für Freelance-Projekte</strong><br><span style="font-size: 14px;">Projektpreise verhandelbar</span>',
         about_expertise: "Meine Kernkompetenzen:",
 
         // Service Boxes (About)
@@ -200,7 +200,7 @@ const translations = {
         contact_fluent: "Fließend",
         contact_native: "Muttersprache",
         contact_cta_title: "Bereit, Ihr Projekt zu starten?",
-        contact_cta_rate: "100-130€/Stunde | Projektpreise verhandelbar",
+        contact_cta_rate: "Projektpreise verhandelbar",
         contact_cta_button: "Kontakt aufnehmen"
     },
 
@@ -222,7 +222,7 @@ const translations = {
         about_title: "Về tôi",
         about_intro: '<strong>Kỹ sư phần mềm với hơn 4 năm kinh nghiệm</strong> xây dựng các giải pháp doanh nghiệp và startup có khả năng mở rộng tại <strong>Revel8, Deutsche Bank, CBRE và Lufthansa</strong>.',
         about_specialization: 'Chuyên về <strong>tích hợp AI/LLM, hệ thống RAG, cơ sở hạ tầng đám mây và kiến trúc backend</strong>. Có thành tích đã được chứng minh trong việc cung cấp các hệ thống sản xuất xử lý dữ liệu khối lượng lớn đồng thời đáp ứng các tiêu chuẩn tuân thủ nghiêm ngặt.',
-        about_available: '<strong style="color: #0066cc;">Hiện đang sẵn sàng cho các dự án freelance</strong><br><span style="font-size: 14px;">Mức giá: $100-130/giờ | Giá dự án có thể thương lượng</span>',
+        about_available: '<strong style="color: #0066cc;">Hiện đang sẵn sàng cho các dự án freelance</strong><br><span style="font-size: 14px;">Giá dự án có thể thương lượng</span>',
         about_expertise: "Chuyên môn cốt lõi của tôi:",
 
         // Service Boxes (About)
@@ -302,7 +302,7 @@ const translations = {
         contact_fluent: "Thành thạo",
         contact_native: "Bản ngữ",
         contact_cta_title: "Sẵn sàng bắt đầu dự án của bạn?",
-        contact_cta_rate: "$100-130/giờ | Giá dự án có thể thương lượng",
+        contact_cta_rate: "Giá dự án có thể thương lượng",
         contact_cta_button: "Liên hệ ngay"
     }
 };
